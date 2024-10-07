@@ -16,8 +16,8 @@
           packages = with pkgs.${system}; [
             python3
             poetry
-          ]
+          ];
         };
-      )};
+      });
     };
 }
