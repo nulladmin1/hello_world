@@ -9,6 +9,10 @@ readme = "README.md"
 python = "^3.12"
 
 
+pytest = "^8.3.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hello-world = "hello_world.main:main"
