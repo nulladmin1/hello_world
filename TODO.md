@@ -5,6 +5,8 @@ A list of TODOs for the project
 - Add Unit Tests
 - Add Nix capabilities
 - Add Docker capabilities
+- Add Nix apps for all languages
+- Add Docker apps for all languages
 
 ## _Python_
 - [x] Finish making code
