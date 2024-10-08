@@ -7,10 +7,10 @@ A list of TODOs for the project
 - Add Docker capabilities
 
 ## _Python_
-[ ] Finish making code
+- [] Finish making code
 
-[ ] Create file structure with ```__init__.py``` and ```main.py```
+- [] Create file structure with ```__init__.py``` and ```main.py```
 
-[ ] Build using ```Poetry```
+- [] Build using ```Poetry```
 
-[ ] Build using ```poetry2nix```
+- [] Build using ```poetry2nix```
