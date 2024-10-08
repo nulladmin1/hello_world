@@ -31,5 +31,14 @@
         src = ./.;
       };
     });
+
+    apps = forEachSystem (system: let
+      hello_world = "${self.packages.${system}.default}";
+    in {
+      default = {
+        type = "app";
+        program = "${hello_world}/bin/hello-world";
+      };
+    });
   };
 }
