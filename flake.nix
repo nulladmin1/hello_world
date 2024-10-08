@@ -17,7 +17,12 @@
     pkgs = forEachSystem (system: import nixpkgs {inherit system;});
   in {
     apps = forEachSystem (system: {
+      default = { 
+        type = "app";
+        program = "${pkgs.${system}.hello}/bin/hello";
+      };
       python = python-app.apps.${system}.default;
+
     });
   };
 }
