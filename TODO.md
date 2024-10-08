@@ -16,3 +16,11 @@ A list of TODOs for the project
 - [x] Build using ```poetry2nix```
 
 - [x] Build using ```Docker```
+
+
+## _Rust_
+- [x] Finish making code
+- [x] Built using cargo
+- [x] Build using buildRustPackage
+- [] Build using Dockerfile/dockerTools
+- [] Add Test Cases
