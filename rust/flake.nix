@@ -22,5 +22,14 @@
         ];
       };
     });
+
+    packages = forEachSystem (system: {
+      default = pkgs.${system}.rustPlatform.buildRustPackage {
+        pname = "hello-world";
+        version = "0.1";
+        cargoLock.lockFile = ./Cargo.lock;
+        src = ./.;
+      };
+    });
   };
 }
