@@ -13,4 +13,6 @@ A list of TODOs for the project
 
 - [x] Build using ```Poetry```
 
-- [ ] Build using ```poetry2nix```
+- [x] Build using ```poetry2nix```
+
+- [ ] Build using ```Docker```
