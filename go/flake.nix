@@ -18,7 +18,7 @@
     devShells = forEachSystem (system: {
       default = pkgs.${system}.mkShell {
         packages = with pkgs.${system}; [
-          hello
+          go
         ];
       };
     });
